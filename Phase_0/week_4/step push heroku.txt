@@ -11,3 +11,22 @@
 6. heroku create nama-file
 
 7. git push heroku master
+
+
+heroku login
+heroku create nama-app
+git init
+git add .
+git commit -m "bla bla bla"
+heroku git:remote -a nama-app
+git push heroku master
+
+
+procfile
+web:waitress-serve --port=$PORT backend:app
+
+requirements:
+waitress
+pandas
+flask
+scikit-learn
