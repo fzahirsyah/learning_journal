@@ -1,0 +1,5 @@
+!mkdir -p ~/.kaggle #bikin folder di kaggle root
+!cp kaggle.json ~/.kaggle # copy paster kaggle.json ke folder kaggle 
+
+!mkdir ./kaggle #bikin folder kaggle di lokasi sama (bukan di root)
+!mv ./kaggle.json ./kaggle #move atau pindahi file kaggle.json ke folder kaggle

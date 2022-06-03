@@ -1,0 +1,49 @@
+dokumen = satuan data, misal 1 tweet
+corpus = dataset nlp, misal 500 tweet
+token = elmenen yg membangun dokumen [kata] token ga mesti angka, bisa kalimat, bisa per
+2 kata, bisa pemisah spasi atau titik. 
+vocab = token yang unik
+
+
+saya pergi ke pasar | dokumen
+di pasar ada ikan   | dokumen
+
+^^^ ini corpus
+
+token = "saya","pergi","ke","pasar"
+
+vocab = saya, pergi, pasar, di, ada, ikan (unique)
+
+pysastrawi = stop word bahasa indonesia (di, ke, yang, ada) # library sastrawi
+nltk = stop words bahasa indonesia
+bisa cari stop words bahasa indonesia.
+
+
+corpus specific = misal semua artikel tentang valentino rossi, "valentino rossi" menjadi kata
+yang paling sering berulasng maka menjadi stop words.
+
+word embedding
+unsupervised
+- word 2 vec
+- glove
+- fasstest
+- NN
+
+
+stemming = mereduksi kata menjadi kata stem/root nya, kata root ada di kata lainnya
+misal : bertanya -> tanya
+
+lemmatization = sama seperti stemming, tp misal contoh menyublim -> sublim tidak ada kata yg sama dari
+kata root
+
+nazief-adriani algorithm -> libarary pysastra untuk lemmatization dictionary.
+
+ner anotation = library spacy
+
+
+skip gram...
+
+
+vocab
+vektorisasi
+one hot encoding
